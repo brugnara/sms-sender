@@ -10,7 +10,7 @@ npm install --save sms-sender
 ```
 
 ```
-var smsSender = require('./');
+var smsSender = require('sms-sender');
 
 smsSender.send('test', '393420000000', '/dev/ttyUSB0', function(err, res) {
   console.log(err, res);
